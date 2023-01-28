@@ -168,37 +168,6 @@ ALTER TABLE ONLY public.customers ALTER COLUMN customer_id SET DEFAULT nextval('
 
 ALTER TABLE ONLY public.services ALTER COLUMN service_id SET DEFAULT nextval('public.services_service_id_seq'::regclass);
 
-
---
--- Data for Name: appointments; Type: TABLE DATA; Schema: public; Owner: freecodecamp
---
-
-INSERT INTO public.appointments VALUES (1, 1, 1, '5pm');
-INSERT INTO public.appointments VALUES (2, 4, 1, '45');
-INSERT INTO public.appointments VALUES (3, 5, 2, '55');
-INSERT INTO public.appointments VALUES (4, 6, 2, '10:00');
-INSERT INTO public.appointments VALUES (5, 7, 2, '45');
-INSERT INTO public.appointments VALUES (7, 8, 2, '10:30');
-INSERT INTO public.appointments VALUES (29, 26, 1, '10:30');
-INSERT INTO public.appointments VALUES (30, 27, 1, '5');
-
-
---
--- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: freecodecamp
---
-
-INSERT INTO public.customers VALUES (1, '555-555-5555', 'Fabio');
-INSERT INTO public.customers VALUES (2, '1', '5');
-INSERT INTO public.customers VALUES (3, '565', 'Lannie');
-INSERT INTO public.customers VALUES (4, '55', '54');
-INSERT INTO public.customers VALUES (5, '5445', '564');
-INSERT INTO public.customers VALUES (6, '56', 'Khum');
-INSERT INTO public.customers VALUES (7, '45', '454');
-INSERT INTO public.customers VALUES (8, '08425', 'Khumbulani');
-INSERT INTO public.customers VALUES (26, '0845', 'Lank');
-INSERT INTO public.customers VALUES (27, '6465', 'fgds');
-
-
 --
 -- Data for Name: services; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
